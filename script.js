@@ -7,7 +7,7 @@ const plural_second = document.getElementById('plural_second');
 const plural_third = document.getElementById('plural_third');
 const passive = document.getElementById('passive');
 
-fetch("data.json")
+fetch("new_data.json")
     .then(response => response.json())
     .then(json => renderData(json));
 

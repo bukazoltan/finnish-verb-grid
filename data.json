@@ -1,6 +1,7 @@
 [{
         "verb_type": "1",
         "infinitive": "puhua",
+        "meaning": "to talk",
         "affirmative": {
             "sing_first": "puhun",
             "sing_second": "puhut",
@@ -23,6 +24,7 @@
     {
         "verb_type": "2",
         "infinitive": "nähdä",
+        "meaning": "to see",
         "affirmative": {
             "sing_first": "näen",
             "sing_second": "näet",

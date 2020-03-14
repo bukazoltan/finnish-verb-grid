@@ -6,30 +6,54 @@ const plural_first = document.getElementById('plural_first');
 const plural_second = document.getElementById('plural_second');
 const plural_third = document.getElementById('plural_third');
 const passive = document.getElementById('passive');
+const negativeCells = document.querySelectorAll('.negative');
+let data;
+let currentId = 0;
 
 fetch("new_data.json")
     .then(response => response.json())
-    .then(json => renderData(json));
+    .then(json => {
+        renderData(json);
+        data = json;
+    });
 
-renderForm = (verb, form) => {
+const renderForm = (verb, form, includeNeg) => {
     for (var i = 0; i < form.children.length; i++) {
         if (form.children[i].classList.contains("affirmative")) {
             form.children[i].textContent = verb["affirmative"][form.id];
-        } else if (form.children[i].classList.contains("negative")) {
+        } else if (includeNeg && form.children[i].classList.contains("negative")) {
             form.children[i].textContent = verb["negative"][form.id];
         }
     }
 }
 
-renderData = (data) => {
+const renderData = (data) => {
     // get a random item from the array
-    let verb = data[Math.floor(Math.random() * data.length)];
+    currentId = Math.floor(Math.random() * data.length);
+    let verb = data[currentId];
     infinitive.textContent = verb["infinitive"];
-    renderForm(verb, sing_first);
-    renderForm(verb, sing_second);
-    renderForm(verb, sing_third);
-    renderForm(verb, plural_first);
-    renderForm(verb, plural_second);
-    renderForm(verb, plural_third);
-    renderForm(verb, passive);
+    let verbForms = [
+        sing_first,
+        sing_second,
+        sing_third,
+        plural_first,
+        plural_second,
+        plural_third,
+        passive
+    ]
+    verbForms.forEach(form => renderForm(verb, form, false));
+    negativeCells.forEach(cell => cell.setAttribute("contenteditable", "true"));
 }
+
+const checkInput = (e) => {
+    let input = e.target.textContent;
+    let formName = e.target.parentElement.id;
+    let correct = data[currentId]["negative"][formName];
+    e.target.classList.add("incorrect");
+    if (input === correct) {
+        e.target.classList.add("correct");
+        e.target.setAttribute("contenteditable", "false");
+    }
+}
+
+negativeCells.forEach(cell => cell.addEventListener('input', checkInput));

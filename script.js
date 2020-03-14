@@ -53,7 +53,26 @@ const checkInput = (e) => {
     if (input === correct) {
         e.target.classList.add("correct");
         e.target.setAttribute("contenteditable", "false");
+        nextActive(e);
+    }
+}
+
+const nextActive = (e) => {
+    let targetClass = (e.target.classList[0]);
+    if (e.target.parentElement.nextElementSibling) {
+        let row = e.target.parentElement.nextElementSibling.cells;
+        for (i = 0; i < row.length; i++) {
+            if (row[i].classList[0] === targetClass) {
+                row[i].focus();
+            }
+        }
     }
 }
 
 negativeCells.forEach(cell => cell.addEventListener('input', checkInput));
+negativeCells.forEach(cell => cell.addEventListener('keydown', e => {
+    if (e.keyCode === 13) {
+        e.preventDefault();
+        nextActive(e);
+    }
+}));

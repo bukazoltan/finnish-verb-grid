@@ -46,7 +46,7 @@ const renderData = (data) => {
 }
 
 const checkInput = (e) => {
-    let input = e.target.textContent;
+    let input = (e.target.textContent).toLowerCase();
     let formName = e.target.parentElement.id;
     let correct = data[currentId]["negative"][formName];
     e.target.classList.add("incorrect");

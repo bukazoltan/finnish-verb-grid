@@ -43,7 +43,7 @@ const renderData = (data) => {
     // get a random item from the array
     currentId = Math.floor(Math.random() * data.length);
     let verb = data[currentId];
-    infinitive.textContent = verb["infinitive"];
+    infinitive.textContent = `${verb["infinitive"]} - ${verb["meaning"]}`;
     renderForm(
         verb, {
             "plurals": false,

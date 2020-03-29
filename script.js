@@ -1,12 +1,5 @@
-const infinitive = document.getElementById('infinitive')
-const sing_first = document.getElementById('sing_first');
-const sing_second = document.getElementById('sing_second');
-const sing_third = document.getElementById('sing_third');
-const plural_first = document.getElementById('plural_first');
-const plural_second = document.getElementById('plural_second');
-const plural_third = document.getElementById('plural_third');
 const passive = document.getElementById('passive');
-const negativeCells = document.querySelectorAll('.negative');
+const taskCells = document.querySelectorAll('.task');
 let data;
 let currentId = 0;
 
@@ -17,14 +10,33 @@ fetch("new_data.json")
         data = json;
     });
 
-const renderForm = (verb, form, includeNeg) => {
-    for (var i = 0; i < form.children.length; i++) {
-        if (form.children[i].classList.contains("affirmative")) {
-            form.children[i].textContent = verb["affirmative"][form.id];
-        } else if (includeNeg && form.children[i].classList.contains("negative")) {
-            form.children[i].textContent = verb["negative"][form.id];
+const makeEditable = (cell) => {
+    cell.setAttribute("contenteditable", "true");
+}
+
+const renderForm = (verb, settings) => {
+    let forms = Object.keys(settings.forms);
+    forms.forEach(form => {
+        // exits from the loop if the form is turned off in the settings
+        let formNode = document.getElementById(form);
+
+        for (var i = 0; i < formNode.children.length; i++) {
+            if (formNode.children[i].classList.contains("affirmative")) {
+                if (settings.affirmatives) {
+                    formNode.children[i].textContent = verb[form]["affirmative"];
+                } else {
+                    makeEditable(formNode.children[i]);
+                }
+            }
+            if (formNode.children[i].classList.contains("negative")) {
+                if (settings.negatives) {
+                    formNode.children[i].textContent = verb[form]["negative"];
+                } else {
+                    makeEditable(formNode.children[i]);
+                }
+            }
         }
-    }
+    });
 }
 
 const renderData = (data) => {
@@ -32,23 +44,29 @@ const renderData = (data) => {
     currentId = Math.floor(Math.random() * data.length);
     let verb = data[currentId];
     infinitive.textContent = verb["infinitive"];
-    let verbForms = [
-        sing_first,
-        sing_second,
-        sing_third,
-        plural_first,
-        plural_second,
-        plural_third,
-        passive
-    ]
-    verbForms.forEach(form => renderForm(verb, form, false));
-    negativeCells.forEach(cell => cell.setAttribute("contenteditable", "true"));
+    renderForm(
+        verb, {
+            "plurals": false,
+            "singulars": false,
+            "affirmatives": false,
+            "negatives": false,
+            forms: {
+                "sing_first": true,
+                "sing_second": false,
+                "sing_third": true,
+                "plural_first": true,
+                "plural_second": true,
+                "plural_third": true,
+                "passive": true
+            }
+        });
+    // negativeCells.forEach(cell => cell.setAttribute("contenteditable", "true"));
 }
 
 const checkInput = (e) => {
     let input = (e.target.textContent).toLowerCase();
     let formName = e.target.parentElement.id;
-    let correct = data[currentId]["negative"][formName];
+    let correct = data[currentId][formName][e.target.classList[0]];
     e.target.classList.add("incorrect");
     if (input === correct) {
         e.target.classList.add("correct");
@@ -57,20 +75,30 @@ const checkInput = (e) => {
     }
 }
 
+const jumpToNextRow = (e) => {
+    let currentRow = e.target.parentElement.nextElementSibling.cells;
+    console.dir(e.target.parentElement);
+    for (i = 0; i < currentRow.length; i++) {
+        if (currentRow[i].attributes.getNamedItem("contenteditable")) {
+            return currentRow;
+        }
+    };
+}
+
 const nextActive = (e) => {
     let targetClass = (e.target.classList[0]);
     if (e.target.parentElement.nextElementSibling) {
-        let row = e.target.parentElement.nextElementSibling.cells;
+        let row = jumpToNextRow(e);
         for (i = 0; i < row.length; i++) {
             if (row[i].classList[0] === targetClass) {
                 row[i].focus();
-            }
+            };
         }
     }
 }
 
-negativeCells.forEach(cell => cell.addEventListener('input', checkInput));
-negativeCells.forEach(cell => cell.addEventListener('keydown', e => {
+taskCells.forEach(cell => cell.addEventListener('input', checkInput));
+taskCells.forEach(cell => cell.addEventListener('keydown', e => {
     if (e.keyCode === 13) {
         e.preventDefault();
         nextActive(e);

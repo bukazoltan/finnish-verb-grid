@@ -1,1201 +1,137 @@
 [{
-        "infinitive": "aakkostaa",
-        "usage_info": "kotus type 53/muistaa, no gradation",
-        "affirmative": {
-            "sing_third": "aakkostaa",
-            "sing_first": "aakkostan",
-            "plural_third": "aakkostavat",
-            "passive": "aakkostetaan",
-            "plural_first": "aakkostamme",
-            "plural_second": "aakkostatte",
-            "sing_second": "aakkostat"
+        "sing_first": {
+            "negative": "en ole",
+            "affirmative": "olen"
         },
-        "meaning": "- arrange in alphabetical order",
+        "plural_third": {
+            "negative": "eiv\u00e4t ole",
+            "affirmative": "ovat"
+        },
+        "infinitive": "olla",
+        "passive": {
+            "negative": "ei olla",
+            "affirmative": "ollaan"
+        },
+        "plural_first": {
+            "negative": "emme ole",
+            "affirmative": "olemme"
+        },
+        "meaning": "to be",
+        "sing_second": {
+            "negative": "et ole",
+            "affirmative": "olet"
+        },
+        "usage_info": "This verb can also mmean 'have\" with a special construction: Minulla on = I have. Litterally: by me is\n\n\n type 67/tulla and 64/juoda, no gradation, irregular",
+        "plural_second": {
+            "negative": "ette ole",
+            "affirmative": "olette"
+        },
         "verb_type": "",
-        "negative": {
-            "sing_third": "ei aakkosta",
-            "sing_first": "en aakkosta",
-            "plural_third": "eiv\u00e4t aakkosta",
-            "passive": "ei aakkosteta",
-            "plural_first": "emme aakkosta",
-            "plural_second": "ette aakkosta",
-            "sing_second": "et aakkosta"
+        "sing_third": {
+            "negative": "ei ole",
+            "affirmative": "on"
         }
     },
     {
-        "infinitive": "aallota",
-        "usage_info": "This verb can also mean the following: present, do kotus type 75/selvit\u00e4, lt-ll gradation",
-        "affirmative": {
-            "sing_third": "aaltoaa",
-            "sing_first": "aaltoan",
-            "plural_third": "aaltoavat",
-            "passive": "aallotaan",
-            "plural_first": "aaltoamme",
-            "plural_second": "aaltoatte",
-            "sing_second": "aaltoat"
+        "sing_first": {
+            "negative": "en kerro",
+            "affirmative": "kerron"
         },
-        "meaning": "wave",
+        "plural_third": {
+            "negative": "eiv\u00e4t kerro",
+            "affirmative": "kertovat"
+        },
+        "infinitive": "kertoa",
+        "passive": {
+            "negative": "ei kerrota",
+            "affirmative": "kerrotaan"
+        },
+        "plural_first": {
+            "negative": "emme kerro",
+            "affirmative": "kerromme"
+        },
+        "meaning": "to tell",
+        "sing_second": {
+            "negative": "et kerro",
+            "affirmative": "kerrot"
+        },
+        "usage_info": "This verb can also mean the following: have it, multiply, have kotus type 52/sanoa, rt-rr gradation",
+        "plural_second": {
+            "negative": "ette kerro",
+            "affirmative": "kerrotte"
+        },
         "verb_type": "",
-        "negative": {
-            "sing_third": "ei aaltoa",
-            "sing_first": "en aaltoa",
-            "plural_third": "eiv\u00e4t aaltoa",
-            "passive": "ei aallota",
-            "plural_first": "emme aaltoa",
-            "plural_second": "ette aaltoa",
-            "sing_second": "et aaltoa"
+        "sing_third": {
+            "negative": "ei kerro",
+            "affirmative": "kertoo"
         }
     },
     {
-        "infinitive": "aallottaa",
-        "usage_info": "This verb can also mean the following: make kotus type 53/muistaa, tt-t gradation",
-        "affirmative": {
-            "sing_third": "aallottaa",
-            "sing_first": "aallotan",
-            "plural_third": "aallottavat",
-            "passive": "aallotetaan",
-            "plural_first": "aallotamme",
-            "plural_second": "aallotatte",
-            "sing_second": "aallotat"
+        "sing_first": {
+            "negative": "en luule",
+            "affirmative": "luulen"
         },
-        "meaning": "corrugate",
+        "plural_third": {
+            "negative": "eiv\u00e4t luule",
+            "affirmative": "luulevat"
+        },
+        "infinitive": "luulla",
+        "passive": {
+            "negative": "ei luulla",
+            "affirmative": "luullaan"
+        },
+        "plural_first": {
+            "negative": "emme luule",
+            "affirmative": "luulemme"
+        },
+        "meaning": "to think",
+        "sing_second": {
+            "negative": "et luule",
+            "affirmative": "luulet"
+        },
+        "usage_info": "This verb can also mean the following: believe, guess, suppose kotus type 67/tulla, no gradation",
+        "plural_second": {
+            "negative": "ette luule",
+            "affirmative": "luulette"
+        },
         "verb_type": "",
-        "negative": {
-            "sing_third": "ei aallota",
-            "sing_first": "en aallota",
-            "plural_third": "eiv\u00e4t aallota",
-            "passive": "ei aalloteta",
-            "plural_first": "emme aallota",
-            "plural_second": "ette aallota",
-            "sing_second": "et aallota"
+        "sing_third": {
+            "negative": "ei luule",
+            "affirmative": "luulee"
         }
     },
     {
-        "infinitive": "aaltoilla",
-        "usage_info": "This verb can also mean the following: undulate kotus type 67/tulla, no gradation",
-        "affirmative": {
-            "sing_third": "aaltoilee",
-            "sing_first": "aaltoilen",
-            "plural_third": "aaltoilevat",
-            "passive": "aaltoillaan",
-            "plural_first": "aaltoilemme",
-            "plural_second": "aaltoilette",
-            "sing_second": "aaltoilet"
+        "sing_first": {
+            "negative": "en osu",
+            "affirmative": "osun"
         },
-        "meaning": "wave",
-        "verb_type": "",
-        "negative": {
-            "sing_third": "ei aaltoile",
-            "sing_first": "en aaltoile",
-            "plural_third": "eiv\u00e4t aaltoile",
-            "passive": "ei aaltoilla",
-            "plural_first": "emme aaltoile",
-            "plural_second": "ette aaltoile",
-            "sing_second": "et aaltoile"
-        }
-    },
-    {
-        "infinitive": "aamiaistaa",
-        "usage_info": "kotus type 53/muistaa, no gradation",
-        "affirmative": {
-            "sing_third": "aamiaistaa",
-            "sing_first": "aamiaistan",
-            "plural_third": "aamiaistavat",
-            "passive": "aamiaistetaan",
-            "plural_first": "aamiaistamme",
-            "plural_second": "aamiaistatte",
-            "sing_second": "aamiaistat"
+        "plural_third": {
+            "negative": "eiv\u00e4t osu",
+            "affirmative": "osuvat"
         },
-        "meaning": "have breakfast",
-        "verb_type": "",
-        "negative": {
-            "sing_third": "ei aamiaista",
-            "sing_first": "en aamiaista",
-            "plural_third": "eiv\u00e4t aamiaista",
-            "passive": "ei aamiaisteta",
-            "plural_first": "emme aamiaista",
-            "plural_second": "ette aamiaista",
-            "sing_second": "et aamiaista"
-        }
-    },
-    {
-        "infinitive": "aarporata",
-        "usage_info": "kotus type 73/salata, no gradation",
-        "affirmative": {
-            "sing_third": "aarporaa",
-            "sing_first": "aarporaan",
-            "plural_third": "aarporaavat",
-            "passive": "aarporataan",
-            "plural_first": "aarporaamme",
-            "plural_second": "aarporaatte",
-            "sing_second": "aarporaat"
+        "infinitive": "osua",
+        "passive": {
+            "negative": "ei osuta",
+            "affirmative": "osutaan"
         },
-        "meaning": "ream",
-        "verb_type": "",
-        "negative": {
-            "sing_third": "ei aarporaa",
-            "sing_first": "en aarporaa",
-            "plural_third": "eiv\u00e4t aarporaa",
-            "passive": "ei aarporata",
-            "plural_first": "emme aarporaa",
-            "plural_second": "ette aarporaa",
-            "sing_second": "et aarporaa"
-        }
-    },
-    {
-        "infinitive": "aatella",
-        "usage_info": "This verb can also mean the following: think kotus type 67/tulla, tt-t gradation",
-        "affirmative": {
-            "sing_third": "aattelee",
-            "sing_first": "aattelen",
-            "plural_third": "aattelevat",
-            "passive": "aatellaan",
-            "plural_first": "aattelemme",
-            "plural_second": "aattelette",
-            "sing_second": "aattelet"
+        "plural_first": {
+            "negative": "emme osu",
+            "affirmative": "osumme"
         },
-        "meaning": "do",
-        "verb_type": "",
-        "negative": {
-            "sing_third": "ei aattele",
-            "sing_first": "en aattele",
-            "plural_third": "eiv\u00e4t aattele",
-            "passive": "ei aatella",
-            "plural_first": "emme aattele",
-            "plural_second": "ette aattele",
-            "sing_second": "et aattele"
-        }
-    },
-    {
-        "infinitive": "aateloida",
-        "usage_info": "This verb can also mean the following: raise to the nobilitypeerage kotus type 62/voida, no gradation",
-        "affirmative": {
-            "sing_third": "aateloi",
-            "sing_first": "aateloin",
-            "plural_third": "aateloivat",
-            "passive": "aateloidaan",
-            "plural_first": "aateloimme",
-            "plural_second": "aateloitte",
-            "sing_second": "aateloit"
+        "meaning": "to hit",
+        "sing_second": {
+            "negative": "et osu",
+            "affirmative": "osut"
         },
-        "meaning": "ennoble",
-        "verb_type": "",
-        "negative": {
-            "sing_third": "ei aateloi",
-            "sing_first": "en aateloi",
-            "plural_third": "eiv\u00e4t aateloi",
-            "passive": "ei aateloida",
-            "plural_first": "emme aateloi",
-            "plural_second": "ette aateloi",
-            "sing_second": "et aateloi"
-        }
-    },
-    {
-        "infinitive": "aavikoittaa",
-        "usage_info": "kotus type 53/muistaa, tt-t gradation",
-        "affirmative": {
-            "sing_third": "aavikoittaa",
-            "sing_first": "aavikoitan",
-            "plural_third": "aavikoittavat",
-            "passive": "aavikoitetaan",
-            "plural_first": "aavikoitamme",
-            "plural_second": "aavikoitatte",
-            "sing_second": "aavikoitat"
+        "usage_info": "This verb can also mean the following: strike, get kotus type 52/sanoa, no gradation",
+        "plural_second": {
+            "negative": "ette osu",
+            "affirmative": "osutte"
         },
-        "meaning": "desertify",
         "verb_type": "",
-        "negative": {
-            "sing_third": "ei aavikoita",
-            "sing_first": "en aavikoita",
-            "plural_third": "eiv\u00e4t aavikoita",
-            "passive": "ei aavikoiteta",
-            "plural_first": "emme aavikoita",
-            "plural_second": "ette aavikoita",
-            "sing_second": "et aavikoita"
-        }
-    },
-    {
-        "infinitive": "aavikoitua",
-        "usage_info": "kotus type 52/sanoa, t-d gradation",
-        "affirmative": {
-            "sing_third": "aavikoituu",
-            "sing_first": "aavikoidun",
-            "plural_third": "aavikoituvat",
-            "passive": "aavikoidutaan",
-            "plural_first": "aavikoidumme",
-            "plural_second": "aavikoidutte",
-            "sing_second": "aavikoidut"
-        },
-        "meaning": "desertify",
-        "verb_type": "",
-        "negative": {
-            "sing_third": "ei aavikoidu",
-            "sing_first": "en aavikoidu",
-            "plural_third": "eiv\u00e4t aavikoidu",
-            "passive": "ei aavikoiduta",
-            "plural_first": "emme aavikoidu",
-            "plural_second": "ette aavikoidu",
-            "sing_second": "et aavikoidu"
-        }
-    },
-    {
-        "infinitive": "aavistaa",
-        "usage_info": "This verb can also mean the following: have a feeling that kotus type 53/muistaa, no gradation",
-        "affirmative": {
-            "sing_third": "aavistaa",
-            "sing_first": "aavistan",
-            "plural_third": "aavistavat",
-            "passive": "aavistetaan",
-            "plural_first": "aavistamme",
-            "plural_second": "aavistatte",
-            "sing_second": "aavistat"
-        },
-        "meaning": "anticipate",
-        "verb_type": "",
-        "negative": {
-            "sing_third": "ei aavista",
-            "sing_first": "en aavista",
-            "plural_third": "eiv\u00e4t aavista",
-            "passive": "ei aavisteta",
-            "plural_first": "emme aavista",
-            "plural_second": "ette aavista",
-            "sing_second": "et aavista"
-        }
-    },
-    {
-        "infinitive": "aavistella",
-        "usage_info": "This verb can also mean the following: have a funny feeling kotus type 67/tulla, no gradation",
-        "affirmative": {
-            "sing_third": "aavistelee",
-            "sing_first": "aavistelen",
-            "plural_third": "aavistelevat",
-            "passive": "aavistellaan",
-            "plural_first": "aavistelemme",
-            "plural_second": "aavistelette",
-            "sing_second": "aavistelet"
-        },
-        "meaning": "have a hunch",
-        "verb_type": "",
-        "negative": {
-            "sing_third": "ei aavistele",
-            "sing_first": "en aavistele",
-            "plural_third": "eiv\u00e4t aavistele",
-            "passive": "ei aavistella",
-            "plural_first": "emme aavistele",
-            "plural_second": "ette aavistele",
-            "sing_second": "et aavistele"
-        }
-    },
-    {
-        "infinitive": "abdikoida",
-        "usage_info": "kotus type 62/voida, no gradation",
-        "affirmative": {
-            "sing_third": "abdikoi",
-            "sing_first": "abdikoin",
-            "plural_third": "abdikoivat",
-            "passive": "abdikoidaan",
-            "plural_first": "abdikoimme",
-            "plural_second": "abdikoitte",
-            "sing_second": "abdikoit"
-        },
-        "meaning": "abdicate",
-        "verb_type": "",
-        "negative": {
-            "sing_third": "ei abdikoi",
-            "sing_first": "en abdikoi",
-            "plural_third": "eiv\u00e4t abdikoi",
-            "passive": "ei abdikoida",
-            "plural_first": "emme abdikoi",
-            "plural_second": "ette abdikoi",
-            "sing_second": "et abdikoi"
-        }
-    },
-    {
-        "infinitive": "abduktoida",
-        "usage_info": "kotus type 62/voida, no gradation",
-        "affirmative": {
-            "sing_third": "abduktoi",
-            "sing_first": "abduktoin",
-            "plural_third": "abduktoivat",
-            "passive": "abduktoidaan",
-            "plural_first": "abduktoimme",
-            "plural_second": "abduktoitte",
-            "sing_second": "abduktoit"
-        },
-        "meaning": "abduct",
-        "verb_type": "",
-        "negative": {
-            "sing_third": "ei abduktoi",
-            "sing_first": "en abduktoi",
-            "plural_third": "eiv\u00e4t abduktoi",
-            "passive": "ei abduktoida",
-            "plural_first": "emme abduktoi",
-            "plural_second": "ette abduktoi",
-            "sing_second": "et abduktoi"
-        }
-    },
-    {
-        "infinitive": "abhaasintaa",
-        "usage_info": "kotus type 54/huutaa, nt-nn gradation",
-        "affirmative": {
-            "sing_third": "abhaasintaa",
-            "sing_first": "abhaasinnan",
-            "plural_third": "abhaasintavat",
-            "passive": "abhaasinnetaan",
-            "plural_first": "abhaasinnamme",
-            "plural_second": "abhaasinnatte",
-            "sing_second": "abhaasinnat"
-        },
-        "meaning": "translate into abkhaz",
-        "verb_type": "",
-        "negative": {
-            "sing_third": "ei abhaasinna",
-            "sing_first": "en abhaasinna",
-            "plural_third": "eiv\u00e4t abhaasinna",
-            "passive": "ei abhaasinneta",
-            "plural_first": "emme abhaasinna",
-            "plural_second": "ette abhaasinna",
-            "sing_second": "et abhaasinna"
-        }
-    },
-    {
-        "infinitive": "abortoida",
-        "usage_info": "kotus type 62/voida, no gradation",
-        "affirmative": {
-            "sing_third": "abortoi",
-            "sing_first": "abortoin",
-            "plural_third": "abortoivat",
-            "passive": "abortoidaan",
-            "plural_first": "abortoimme",
-            "plural_second": "abortoitte",
-            "sing_second": "abortoit"
-        },
-        "meaning": "abort",
-        "verb_type": "",
-        "negative": {
-            "sing_third": "ei abortoi",
-            "sing_first": "en abortoi",
-            "plural_third": "eiv\u00e4t abortoi",
-            "passive": "ei abortoida",
-            "plural_first": "emme abortoi",
-            "plural_second": "ette abortoi",
-            "sing_second": "et abortoi"
-        }
-    },
-    {
-        "infinitive": "absorboida",
-        "usage_info": "kotus type 62/voida, no gradation",
-        "affirmative": {
-            "sing_third": "absorboi",
-            "sing_first": "absorboin",
-            "plural_third": "absorboivat",
-            "passive": "absorboidaan",
-            "plural_first": "absorboimme",
-            "plural_second": "absorboitte",
-            "sing_second": "absorboit"
-        },
-        "meaning": "absorb",
-        "verb_type": "",
-        "negative": {
-            "sing_third": "ei absorboi",
-            "sing_first": "en absorboi",
-            "plural_third": "eiv\u00e4t absorboi",
-            "passive": "ei absorboida",
-            "plural_first": "emme absorboi",
-            "plural_second": "ette absorboi",
-            "sing_second": "et absorboi"
-        }
-    },
-    {
-        "infinitive": "absorboitua",
-        "usage_info": "This verb can also mean the following: do kotus type 52/sanoa, t-d gradation",
-        "affirmative": {
-            "sing_third": "absorboituu",
-            "sing_first": "absorboidun",
-            "plural_third": "absorboituvat",
-            "passive": "absorboidutaan",
-            "plural_first": "absorboidumme",
-            "plural_second": "absorboidutte",
-            "sing_second": "absorboidut"
-        },
-        "meaning": "be absorbed into",
-        "verb_type": "",
-        "negative": {
-            "sing_third": "ei absorboidu",
-            "sing_first": "en absorboidu",
-            "plural_third": "eiv\u00e4t absorboidu",
-            "passive": "ei absorboiduta",
-            "plural_first": "emme absorboidu",
-            "plural_second": "ette absorboidu",
-            "sing_second": "et absorboidu"
-        }
-    },
-    {
-        "infinitive": "abstrahoida",
-        "usage_info": "This verb can also mean the following: make an epitomea general concept of kotus type 62/voida, no gradation",
-        "affirmative": {
-            "sing_third": "abstrahoi",
-            "sing_first": "abstrahoin",
-            "plural_third": "abstrahoivat",
-            "passive": "abstrahoidaan",
-            "plural_first": "abstrahoimme",
-            "plural_second": "abstrahoitte",
-            "sing_second": "abstrahoit"
-        },
-        "meaning": "abstract",
-        "verb_type": "",
-        "negative": {
-            "sing_third": "ei abstrahoi",
-            "sing_first": "en abstrahoi",
-            "plural_third": "eiv\u00e4t abstrahoi",
-            "passive": "ei abstrahoida",
-            "plural_first": "emme abstrahoi",
-            "plural_second": "ette abstrahoi",
-            "sing_second": "et abstrahoi"
-        }
-    },
-    {
-        "infinitive": "abstrahoitua",
-        "usage_info": "This verb can also mean the following: do, be generalized kotus type 52/sanoa, t-d gradation",
-        "affirmative": {
-            "sing_third": "abstrahoituu",
-            "sing_first": "abstrahoidun",
-            "plural_third": "abstrahoituvat",
-            "passive": "abstrahoidutaan",
-            "plural_first": "abstrahoidumme",
-            "plural_second": "abstrahoidutte",
-            "sing_second": "abstrahoidut"
-        },
-        "meaning": "be abstracted",
-        "verb_type": "",
-        "negative": {
-            "sing_third": "ei abstrahoidu",
-            "sing_first": "en abstrahoidu",
-            "plural_third": "eiv\u00e4t abstrahoidu",
-            "passive": "ei abstrahoiduta",
-            "plural_first": "emme abstrahoidu",
-            "plural_second": "ette abstrahoidu",
-            "sing_second": "et abstrahoidu"
-        }
-    },
-    {
-        "infinitive": "abstraktistaa",
-        "usage_info": "kotus type 53/muistaa, no gradation",
-        "affirmative": {
-            "sing_third": "abstraktistaa",
-            "sing_first": "abstraktistan",
-            "plural_third": "abstraktistavat",
-            "passive": "abstraktistetaan",
-            "plural_first": "abstraktistamme",
-            "plural_second": "abstraktistatte",
-            "sing_second": "abstraktistat"
-        },
-        "meaning": "do",
-        "verb_type": "",
-        "negative": {
-            "sing_third": "ei abstraktista",
-            "sing_first": "en abstraktista",
-            "plural_third": "eiv\u00e4t abstraktista",
-            "passive": "ei abstraktisteta",
-            "plural_first": "emme abstraktista",
-            "plural_second": "ette abstraktista",
-            "sing_second": "et abstraktista"
-        }
-    },
-    {
-        "infinitive": "abstraktistua",
-        "usage_info": "kotus type 52/sanoa, no gradation",
-        "affirmative": {
-            "sing_third": "abstraktistuu",
-            "sing_first": "abstraktistun",
-            "plural_third": "abstraktistuvat",
-            "passive": "abstraktistutaan",
-            "plural_first": "abstraktistumme",
-            "plural_second": "abstraktistutte",
-            "sing_second": "abstraktistut"
-        },
-        "meaning": "become abstract",
-        "verb_type": "",
-        "negative": {
-            "sing_third": "ei abstraktistu",
-            "sing_first": "en abstraktistu",
-            "plural_third": "eiv\u00e4t abstraktistu",
-            "passive": "ei abstraktistuta",
-            "plural_first": "emme abstraktistu",
-            "plural_second": "ette abstraktistu",
-            "sing_second": "et abstraktistu"
-        }
-    },
-    {
-        "infinitive": "adaptoida",
-        "usage_info": "kotus type 62/voida, no gradation",
-        "affirmative": {
-            "sing_third": "adaptoi",
-            "sing_first": "adaptoin",
-            "plural_third": "adaptoivat",
-            "passive": "adaptoidaan",
-            "plural_first": "adaptoimme",
-            "plural_second": "adaptoitte",
-            "sing_second": "adaptoit"
-        },
-        "meaning": "adapt",
-        "verb_type": "",
-        "negative": {
-            "sing_third": "ei adaptoi",
-            "sing_first": "en adaptoi",
-            "plural_third": "eiv\u00e4t adaptoi",
-            "passive": "ei adaptoida",
-            "plural_first": "emme adaptoi",
-            "plural_second": "ette adaptoi",
-            "sing_second": "et adaptoi"
-        }
-    },
-    {
-        "infinitive": "adaptoitua",
-        "usage_info": "This verb can also mean the following: do kotus type 52/sanoa, t-d gradation",
-        "affirmative": {
-            "sing_third": "adaptoituu",
-            "sing_first": "adaptoidun",
-            "plural_third": "adaptoituvat",
-            "passive": "adaptoidutaan",
-            "plural_first": "adaptoidumme",
-            "plural_second": "adaptoidutte",
-            "sing_second": "adaptoidut"
-        },
-        "meaning": "become",
-        "verb_type": "",
-        "negative": {
-            "sing_third": "ei adaptoidu",
-            "sing_first": "en adaptoidu",
-            "plural_third": "eiv\u00e4t adaptoidu",
-            "passive": "ei adaptoiduta",
-            "plural_first": "emme adaptoidu",
-            "plural_second": "ette adaptoidu",
-            "sing_second": "et adaptoidu"
-        }
-    },
-    {
-        "infinitive": "addiktoida",
-        "usage_info": "kotus type 62/voida, no gradation",
-        "affirmative": {
-            "sing_third": "addiktoi",
-            "sing_first": "addiktoin",
-            "plural_third": "addiktoivat",
-            "passive": "addiktoidaan",
-            "plural_first": "addiktoimme",
-            "plural_second": "addiktoitte",
-            "sing_second": "addiktoit"
-        },
-        "meaning": "addict",
-        "verb_type": "",
-        "negative": {
-            "sing_third": "ei addiktoi",
-            "sing_first": "en addiktoi",
-            "plural_third": "eiv\u00e4t addiktoi",
-            "passive": "ei addiktoida",
-            "plural_first": "emme addiktoi",
-            "plural_second": "ette addiktoi",
-            "sing_second": "et addiktoi"
-        }
-    },
-    {
-        "infinitive": "addiktoitua",
-        "usage_info": "kotus type 52/sanoa, t-d gradation",
-        "affirmative": {
-            "sing_third": "addiktoituu",
-            "sing_first": "addiktoidun",
-            "plural_third": "addiktoituvat",
-            "passive": "addiktoidutaan",
-            "plural_first": "addiktoidumme",
-            "plural_second": "addiktoidutte",
-            "sing_second": "addiktoidut"
-        },
-        "meaning": "addict",
-        "verb_type": "",
-        "negative": {
-            "sing_third": "ei addiktoidu",
-            "sing_first": "en addiktoidu",
-            "plural_third": "eiv\u00e4t addiktoidu",
-            "passive": "ei addiktoiduta",
-            "plural_first": "emme addiktoidu",
-            "plural_second": "ette addiktoidu",
-            "sing_second": "et addiktoidu"
-        }
-    },
-    {
-        "infinitive": "adoptoida",
-        "usage_info": "kotus type 62/voida, no gradation",
-        "affirmative": {
-            "sing_third": "adoptoi",
-            "sing_first": "adoptoin",
-            "plural_third": "adoptoivat",
-            "passive": "adoptoidaan",
-            "plural_first": "adoptoimme",
-            "plural_second": "adoptoitte",
-            "sing_second": "adoptoit"
-        },
-        "meaning": "adopt",
-        "verb_type": "",
-        "negative": {
-            "sing_third": "ei adoptoi",
-            "sing_first": "en adoptoi",
-            "plural_third": "eiv\u00e4t adoptoi",
-            "passive": "ei adoptoida",
-            "plural_first": "emme adoptoi",
-            "plural_second": "ette adoptoi",
-            "sing_second": "et adoptoi"
-        }
-    },
-    {
-        "infinitive": "adsorboida",
-        "usage_info": "kotus type 62/voida, no gradation",
-        "affirmative": {
-            "sing_third": "adsorboi",
-            "sing_first": "adsorboin",
-            "plural_third": "adsorboivat",
-            "passive": "adsorboidaan",
-            "plural_first": "adsorboimme",
-            "plural_second": "adsorboitte",
-            "sing_second": "adsorboit"
-        },
-        "meaning": "adsorb",
-        "verb_type": "",
-        "negative": {
-            "sing_third": "ei adsorboi",
-            "sing_first": "en adsorboi",
-            "plural_third": "eiv\u00e4t adsorboi",
-            "passive": "ei adsorboida",
-            "plural_first": "emme adsorboi",
-            "plural_second": "ette adsorboi",
-            "sing_second": "et adsorboi"
-        }
-    },
-    {
-        "infinitive": "adsorboitua",
-        "usage_info": "This verb can also mean the following: do kotus type 52/sanoa, t-d gradation",
-        "affirmative": {
-            "sing_third": "adsorboituu",
-            "sing_first": "adsorboidun",
-            "plural_third": "adsorboituvat",
-            "passive": "adsorboidutaan",
-            "plural_first": "adsorboidumme",
-            "plural_second": "adsorboidutte",
-            "sing_second": "adsorboidut"
-        },
-        "meaning": "become",
-        "verb_type": "",
-        "negative": {
-            "sing_third": "ei adsorboidu",
-            "sing_first": "en adsorboidu",
-            "plural_third": "eiv\u00e4t adsorboidu",
-            "passive": "ei adsorboiduta",
-            "plural_first": "emme adsorboidu",
-            "plural_second": "ette adsorboidu",
-            "sing_second": "et adsorboidu"
-        }
-    },
-    {
-        "infinitive": "aerobicata",
-        "usage_info": "kotus type 73/salata, k- gradation",
-        "affirmative": {
-            "sing_third": "aerobickaa",
-            "sing_first": "aerobickaan",
-            "plural_third": "aerobickaavat",
-            "passive": "aerobicataan",
-            "plural_first": "aerobickaamme",
-            "plural_second": "aerobickaatte",
-            "sing_second": "aerobickaat"
-        },
-        "meaning": "do",
-        "verb_type": "",
-        "negative": {
-            "sing_third": "ei aerobickaa",
-            "sing_first": "en aerobickaa",
-            "plural_third": "eiv\u00e4t aerobickaa",
-            "passive": "ei aerobicata",
-            "plural_first": "emme aerobickaa",
-            "plural_second": "ette aerobickaa",
-            "sing_second": "et aerobickaa"
-        }
-    },
-    {
-        "infinitive": "aerobikata",
-        "usage_info": "kotus type 73/salata, kk-k gradation",
-        "affirmative": {
-            "sing_third": "aerobikkaa",
-            "sing_first": "aerobikkaan",
-            "plural_third": "aerobikkaavat",
-            "passive": "aerobikataan",
-            "plural_first": "aerobikkaamme",
-            "plural_second": "aerobikkaatte",
-            "sing_second": "aerobikkaat"
-        },
-        "meaning": "do aerobics",
-        "verb_type": "",
-        "negative": {
-            "sing_third": "ei aerobikkaa",
-            "sing_first": "en aerobikkaa",
-            "plural_third": "eiv\u00e4t aerobikkaa",
-            "passive": "ei aerobikata",
-            "plural_first": "emme aerobikkaa",
-            "plural_second": "ette aerobikkaa",
-            "sing_second": "et aerobikkaa"
-        }
-    },
-    {
-        "infinitive": "affisioida",
-        "usage_info": "kotus type 62/voida, no gradation",
-        "affirmative": {
-            "sing_third": "affisioi",
-            "sing_first": "affisioin",
-            "plural_third": "affisioivat",
-            "passive": "affisioidaan",
-            "plural_first": "affisioimme",
-            "plural_second": "affisioitte",
-            "sing_second": "affisioit"
-        },
-        "meaning": "affect",
-        "verb_type": "",
-        "negative": {
-            "sing_third": "ei affisioi",
-            "sing_first": "en affisioi",
-            "plural_third": "eiv\u00e4t affisioi",
-            "passive": "ei affisioida",
-            "plural_first": "emme affisioi",
-            "plural_second": "ette affisioi",
-            "sing_second": "et affisioi"
-        }
-    },
-    {
-        "infinitive": "afrikaansintaa",
-        "usage_info": "kotus type 54/huutaa, nt-nn gradation",
-        "affirmative": {
-            "sing_third": "afrikaansintaa",
-            "sing_first": "afrikaansinnan",
-            "plural_third": "afrikaansintavat",
-            "passive": "afrikaansinnetaan",
-            "plural_first": "afrikaansinnamme",
-            "plural_second": "afrikaansinnatte",
-            "sing_second": "afrikaansinnat"
-        },
-        "meaning": "translate into afrikaans",
-        "verb_type": "",
-        "negative": {
-            "sing_third": "ei afrikaansinna",
-            "sing_first": "en afrikaansinna",
-            "plural_third": "eiv\u00e4t afrikaansinna",
-            "passive": "ei afrikaansinneta",
-            "plural_first": "emme afrikaansinna",
-            "plural_second": "ette afrikaansinna",
-            "sing_second": "et afrikaansinna"
-        }
-    },
-    {
-        "infinitive": "agglutinoida",
-        "usage_info": "kotus type 62/voida, no gradation",
-        "affirmative": {
-            "sing_third": "agglutinoi",
-            "sing_first": "agglutinoin",
-            "plural_third": "agglutinoivat",
-            "passive": "agglutinoidaan",
-            "plural_first": "agglutinoimme",
-            "plural_second": "agglutinoitte",
-            "sing_second": "agglutinoit"
-        },
-        "meaning": "agglutinate",
-        "verb_type": "",
-        "negative": {
-            "sing_third": "ei agglutinoi",
-            "sing_first": "en agglutinoi",
-            "plural_third": "eiv\u00e4t agglutinoi",
-            "passive": "ei agglutinoida",
-            "plural_first": "emme agglutinoi",
-            "plural_second": "ette agglutinoi",
-            "sing_second": "et agglutinoi"
-        }
-    },
-    {
-        "infinitive": "agitoida",
-        "usage_info": "kotus type 62/voida, no gradation",
-        "affirmative": {
-            "sing_third": "agitoi",
-            "sing_first": "agitoin",
-            "plural_third": "agitoivat",
-            "passive": "agitoidaan",
-            "plural_first": "agitoimme",
-            "plural_second": "agitoitte",
-            "sing_second": "agitoit"
-        },
-        "meaning": "agitate",
-        "verb_type": "",
-        "negative": {
-            "sing_third": "ei agitoi",
-            "sing_first": "en agitoi",
-            "plural_third": "eiv\u00e4t agitoi",
-            "passive": "ei agitoida",
-            "plural_first": "emme agitoi",
-            "plural_second": "ette agitoi",
-            "sing_second": "et agitoi"
-        }
-    },
-    {
-        "infinitive": "ahavoida",
-        "usage_info": "kotus type 62/voida, no gradation",
-        "affirmative": {
-            "sing_third": "ahavoi",
-            "sing_first": "ahavoin",
-            "plural_third": "ahavoivat",
-            "passive": "ahavoidaan",
-            "plural_first": "ahavoimme",
-            "plural_second": "ahavoitte",
-            "sing_second": "ahavoit"
-        },
-        "meaning": "do",
-        "verb_type": "",
-        "negative": {
-            "sing_third": "ei ahavoi",
-            "sing_first": "en ahavoi",
-            "plural_third": "eiv\u00e4t ahavoi",
-            "passive": "ei ahavoida",
-            "plural_first": "emme ahavoi",
-            "plural_second": "ette ahavoi",
-            "sing_second": "et ahavoi"
-        }
-    },
-    {
-        "infinitive": "ahavoittaa",
-        "usage_info": "kotus type 53/muistaa, tt-t gradation",
-        "affirmative": {
-            "sing_third": "ahavoittaa",
-            "sing_first": "ahavoitan",
-            "plural_third": "ahavoittavat",
-            "passive": "ahavoitetaan",
-            "plural_first": "ahavoitamme",
-            "plural_second": "ahavoitatte",
-            "sing_second": "ahavoitat"
-        },
-        "meaning": "chap",
-        "verb_type": "",
-        "negative": {
-            "sing_third": "ei ahavoita",
-            "sing_first": "en ahavoita",
-            "plural_third": "eiv\u00e4t ahavoita",
-            "passive": "ei ahavoiteta",
-            "plural_first": "emme ahavoita",
-            "plural_second": "ette ahavoita",
-            "sing_second": "et ahavoita"
-        }
-    },
-    {
-        "infinitive": "ahavoitua",
-        "usage_info": "This verb can also mean the following: do kotus type 52/sanoa, t-d gradation",
-        "affirmative": {
-            "sing_third": "ahavoituu",
-            "sing_first": "ahavoidun",
-            "plural_third": "ahavoituvat",
-            "passive": "ahavoidutaan",
-            "plural_first": "ahavoidumme",
-            "plural_second": "ahavoidutte",
-            "sing_second": "ahavoidut"
-        },
-        "meaning": "dry upout",
-        "verb_type": "",
-        "negative": {
-            "sing_third": "ei ahavoidu",
-            "sing_first": "en ahavoidu",
-            "plural_third": "eiv\u00e4t ahavoidu",
-            "passive": "ei ahavoiduta",
-            "plural_first": "emme ahavoidu",
-            "plural_second": "ette ahavoidu",
-            "sing_second": "et ahavoidu"
-        }
-    },
-    {
-        "infinitive": "ahdata",
-        "usage_info": "kotus type 73/salata, t-d gradation",
-        "affirmative": {
-            "sing_third": "ahtaa",
-            "sing_first": "ahtaan",
-            "plural_third": "ahtaavat",
-            "passive": "ahdataan",
-            "plural_first": "ahtaamme",
-            "plural_second": "ahtaatte",
-            "sing_second": "ahtaat"
-        },
-        "meaning": "load",
-        "verb_type": "",
-        "negative": {
-            "sing_third": "ei ahtaa",
-            "sing_first": "en ahtaa",
-            "plural_third": "eiv\u00e4t ahtaa",
-            "passive": "ei ahdata",
-            "plural_first": "emme ahtaa",
-            "plural_second": "ette ahtaa",
-            "sing_second": "et ahtaa"
-        }
-    },
-    {
-        "infinitive": "ahdistaa",
-        "usage_info": "This verb can also mean the following: heckle, pursue, constrict, chase, hector, vex, strangle, harass, badger, bait, distress, pester, irritate, annoy, bother kotus type 53/muistaa, no gradation",
-        "affirmative": {
-            "sing_third": "ahdistaa",
-            "sing_first": "ahdistan",
-            "plural_third": "ahdistavat",
-            "passive": "ahdistetaan",
-            "plural_first": "ahdistamme",
-            "plural_second": "ahdistatte",
-            "sing_second": "ahdistat"
-        },
-        "meaning": "worry",
-        "verb_type": "",
-        "negative": {
-            "sing_third": "ei ahdista",
-            "sing_first": "en ahdista",
-            "plural_third": "eiv\u00e4t ahdista",
-            "passive": "ei ahdisteta",
-            "plural_first": "emme ahdista",
-            "plural_second": "ette ahdista",
-            "sing_second": "et ahdista"
-        }
-    },
-    {
-        "infinitive": "ahdistella",
-        "usage_info": "This verb can also mean the following: molest kotus type 67/tulla, no gradation",
-        "affirmative": {
-            "sing_third": "ahdistelee",
-            "sing_first": "ahdistelen",
-            "plural_third": "ahdistelevat",
-            "passive": "ahdistellaan",
-            "plural_first": "ahdistelemme",
-            "plural_second": "ahdistelette",
-            "sing_second": "ahdistelet"
-        },
-        "meaning": "harass",
-        "verb_type": "",
-        "negative": {
-            "sing_third": "ei ahdistele",
-            "sing_first": "en ahdistele",
-            "plural_third": "eiv\u00e4t ahdistele",
-            "passive": "ei ahdistella",
-            "plural_first": "emme ahdistele",
-            "plural_second": "ette ahdistele",
-            "sing_second": "et ahdistele"
-        }
-    },
-    {
-        "infinitive": "ahdistua",
-        "usage_info": "kotus type 52/sanoa, no gradation",
-        "affirmative": {
-            "sing_third": "ahdistuu",
-            "sing_first": "ahdistun",
-            "plural_third": "ahdistuvat",
-            "passive": "ahdistutaan",
-            "plural_first": "ahdistumme",
-            "plural_second": "ahdistutte",
-            "sing_second": "ahdistut"
-        },
-        "meaning": "get anxiousnervous",
-        "verb_type": "",
-        "negative": {
-            "sing_third": "ei ahdistu",
-            "sing_first": "en ahdistu",
-            "plural_third": "eiv\u00e4t ahdistu",
-            "passive": "ei ahdistuta",
-            "plural_first": "emme ahdistu",
-            "plural_second": "ette ahdistu",
-            "sing_second": "et ahdistu"
-        }
-    },
-    {
-        "infinitive": "ahertaa",
-        "usage_info": "This verb can also mean the following: apply kotus type 54/huutaa, rt-rr gradation",
-        "affirmative": {
-            "sing_third": "ahertaa",
-            "sing_first": "aherran",
-            "plural_third": "ahertavat",
-            "passive": "aherretaan",
-            "plural_first": "aherramme",
-            "plural_second": "aherratte",
-            "sing_second": "aherrat"
-        },
-        "meaning": "work hard",
-        "verb_type": "",
-        "negative": {
-            "sing_third": "ei aherra",
-            "sing_first": "en aherra",
-            "plural_third": "eiv\u00e4t aherra",
-            "passive": "ei aherreta",
-            "plural_first": "emme aherra",
-            "plural_second": "ette aherra",
-            "sing_second": "et aherra"
-        }
-    },
-    {
-        "infinitive": "ahkeroida",
-        "usage_info": "This verb can also mean the following: apply kotus type 68/tupakoida, no gradation",
-        "affirmative": {
-            "sing_third": "ahkeroi",
-            "sing_first": "ahkeroin",
-            "plural_third": "ahkeroivat",
-            "passive": "ahkeroidaan",
-            "plural_first": "ahkeroimme",
-            "plural_second": "ahkeroitte",
-            "sing_second": "ahkeroit"
-        },
-        "meaning": "work hard",
-        "verb_type": "",
-        "negative": {
-            "sing_third": "ei ahkeroi",
-            "sing_first": "en ahkeroi",
-            "plural_third": "eiv\u00e4t ahkeroi",
-            "passive": "ei ahkeroida",
-            "plural_first": "emme ahkeroi",
-            "plural_second": "ette ahkeroi",
-            "sing_second": "et ahkeroi"
-        }
-    },
-    {
-        "infinitive": "ahmaista",
-        "usage_info": "This verb can also mean the following: gulp, eat quickly, stuff with, hog, gobble kotus type 66/rohkaista, no gradation",
-        "affirmative": {
-            "sing_third": "ahmaisee",
-            "sing_first": "ahmaisen",
-            "plural_third": "ahmaisevat",
-            "passive": "ahmaistaan",
-            "plural_first": "ahmaisemme",
-            "plural_second": "ahmaisette",
-            "sing_second": "ahmaiset"
-        },
-        "meaning": "wolf down",
-        "verb_type": "",
-        "negative": {
-            "sing_third": "ei ahmaise",
-            "sing_first": "en ahmaise",
-            "plural_third": "eiv\u00e4t ahmaise",
-            "passive": "ei ahmaista",
-            "plural_first": "emme ahmaise",
-            "plural_second": "ette ahmaise",
-            "sing_second": "et ahmaise"
-        }
-    },
-    {
-        "infinitive": "ahmia",
-        "usage_info": "This verb can also mean the following: gulp, eat quickly, stuff with, hog, gobble kotus type 61/sallia, no gradation",
-        "affirmative": {
-            "sing_third": "ahmii",
-            "sing_first": "ahmin",
-            "plural_third": "ahmivat",
-            "passive": "ahmitaan",
-            "plural_first": "ahmimme",
-            "plural_second": "ahmitte",
-            "sing_second": "ahmit"
-        },
-        "meaning": "wolf down",
-        "verb_type": "",
-        "negative": {
-            "sing_third": "ei ahmi",
-            "sing_first": "en ahmi",
-            "plural_third": "eiv\u00e4t ahmi",
-            "passive": "ei ahmita",
-            "plural_first": "emme ahmi",
-            "plural_second": "ette ahmi",
-            "sing_second": "et ahmi"
-        }
-    },
-    {
-        "infinitive": "ahnastella",
-        "usage_info": "kotus type 67/tulla, no gradation",
-        "affirmative": {
-            "sing_third": "ahnastelee",
-            "sing_first": "ahnastelen",
-            "plural_third": "ahnastelevat",
-            "passive": "ahnastellaan",
-            "plural_first": "ahnastelemme",
-            "plural_second": "ahnastelette",
-            "sing_second": "ahnastelet"
-        },
-        "meaning": "do",
-        "verb_type": "",
-        "negative": {
-            "sing_third": "ei ahnastele",
-            "sing_first": "en ahnastele",
-            "plural_third": "eiv\u00e4t ahnastele",
-            "passive": "ei ahnastella",
-            "plural_first": "emme ahnastele",
-            "plural_second": "ette ahnastele",
-            "sing_second": "et ahnastele"
-        }
-    },
-    {
-        "infinitive": "ahnehtia",
-        "usage_info": "This verb can also mean the following: wolf down, be, lust after, wolf, gobble, be greedy for, eat quickly, stuff with, desire, crave, hoard, be eager for, gulp kotus type 61/sallia, t-d gradation",
-        "affirmative": {
-            "sing_third": "ahnehtii",
-            "sing_first": "ahnehdin",
-            "plural_third": "ahnehtivat",
-            "passive": "ahnehditaan",
-            "plural_first": "ahnehdimme",
-            "plural_second": "ahnehditte",
-            "sing_second": "ahnehdit"
-        },
-        "meaning": "hog",
-        "verb_type": "",
-        "negative": {
-            "sing_third": "ei ahnehdi",
-            "sing_first": "en ahnehdi",
-            "plural_third": "eiv\u00e4t ahnehdi",
-            "passive": "ei ahnehdita",
-            "plural_first": "emme ahnehdi",
-            "plural_second": "ette ahnehdi",
-            "sing_second": "et ahnehdi"
-        }
-    },
-    {
-        "infinitive": "ahtaa",
-        "usage_info": "This verb can also mean the following: turbocharge, fill, pack full, stuff, supercharge kotus type 56/kaivaa, t-d gradation",
-        "affirmative": {
-            "sing_third": "ahtaa",
-            "sing_first": "ahdan",
-            "plural_third": "ahtavat",
-            "passive": "ahdetaan",
-            "plural_first": "ahdamme",
-            "plural_second": "ahdatte",
-            "sing_second": "ahdat"
-        },
-        "meaning": "cram",
-        "verb_type": "",
-        "negative": {
-            "sing_third": "ei ahda",
-            "sing_first": "en ahda",
-            "plural_third": "eiv\u00e4t ahda",
-            "passive": "ei ahdeta",
-            "plural_first": "emme ahda",
-            "plural_second": "ette ahda",
-            "sing_second": "et ahda"
-        }
-    },
-    {
-        "infinitive": "ahtauttaa",
-        "usage_info": "This verb can also mean the following: have kotus type 53/muistaa, tt-t gradation",
-        "affirmative": {
-            "sing_third": "ahtauttaa",
-            "sing_first": "ahtautan",
-            "plural_third": "ahtauttavat",
-            "passive": "ahtautetaan",
-            "plural_first": "ahtautamme",
-            "plural_second": "ahtautatte",
-            "sing_second": "ahtautat"
-        },
-        "meaning": "make",
-        "verb_type": "",
-        "negative": {
-            "sing_third": "ei ahtauta",
-            "sing_first": "en ahtauta",
-            "plural_third": "eiv\u00e4t ahtauta",
-            "passive": "ei ahtauteta",
-            "plural_first": "emme ahtauta",
-            "plural_second": "ette ahtauta",
-            "sing_second": "et ahtauta"
+        "sing_third": {
+            "negative": "ei osu",
+            "affirmative": "osuu"
         }
     }
 ]

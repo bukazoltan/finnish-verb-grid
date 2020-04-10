@@ -9,7 +9,7 @@ let data;
 let currentId = 0;
 
 
-fetch("/data/data.json")
+fetch("data/data.json")
     .then(response => response.json())
     .then(json => {
         renderData(json);

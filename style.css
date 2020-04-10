@@ -4,10 +4,11 @@ table th {
     padding: 5px 4px;
 }
 
-.incorrect {
-    background-color: red;
+.task {
+    transition: all 0.5s;
 }
 
-.correct {
-    background-color: green;
+#infinitive {
+    margin: 15px;
+    text-align: center;
 }

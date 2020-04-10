@@ -1,7 +1,13 @@
+// Selectors
 const passive = document.getElementById('passive');
 const taskCells = document.querySelectorAll('.task');
+const table = document.querySelector('.table')
+const lastRow = table.rows[table.rows.length - 1];
+
+// Basic tracking variables
 let data;
 let currentId = 0;
+
 
 fetch("new_data.json")
     .then(response => response.json())
@@ -67,9 +73,10 @@ const checkInput = (e) => {
     let input = (e.target.textContent).toLowerCase();
     let formName = e.target.parentElement.id;
     let correct = data[currentId][formName][e.target.classList[0]];
-    e.target.classList.add("incorrect");
+    e.target.classList.add("bg-warning");
     if (input === correct) {
-        e.target.classList.add("correct");
+        e.target.classList.remove("bg-warning");
+        e.target.classList.add("bg-success");
         e.target.setAttribute("contenteditable", "false");
         nextActive(e);
     }
@@ -77,12 +84,13 @@ const checkInput = (e) => {
 
 const jumpToNextRow = (e) => {
     let currentRow = e.target.parentElement.nextElementSibling.cells;
-    console.dir(e.target.parentElement);
-    for (i = 0; i < currentRow.length; i++) {
-        if (currentRow[i].attributes.getNamedItem("contenteditable")) {
-            return currentRow;
-        }
-    };
+    console.log(currentRow);
+    if (currentRow)
+        for (i = 0; i < currentRow.length; i++) {
+            if (currentRow[i].attributes.getNamedItem("contenteditable")) {
+                return currentRow;
+            }
+        };
 }
 
 const nextActive = (e) => {
@@ -95,6 +103,7 @@ const nextActive = (e) => {
             };
         }
     }
+    console.log(e);
 }
 
 taskCells.forEach(cell => cell.addEventListener('input', checkInput));
